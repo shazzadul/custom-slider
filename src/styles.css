@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+
+#img {
+  background: #fff;
+  padding: 10px 0;
+  width: 980px;
+  height: 350px;
+  margin-top: 20px;
+  display: block;
+  position: absolute;
+  color: #232323;
+}
+
+#img1,
+#img2,
+#img3 {
+  background: #232323;
+  padding: 10px 0;
+  width: 980px;
+  height: 350px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.btn-primary {
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+  outline: none;
+}
+
+.btn-primary:hover {
+  padding: 10px;
+  border: 1px solid black;
+  background: #b71c1c;
+  transition: all 0.2s;
+  color: #fff;
+  outline: none;
+}
+
+.container {
+  width: 980px;
+  background: #232323;
+  height: 600px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
